@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotografi Dasar - Elma Balqis Photography</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #1dbae5;
+      padding: 10px 30px;
+      border-bottom: 3px solid #000000;
+    }
+
+    .navbar img {
+      height: 50px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      color: blue;
+    }
+
+    .container {
+      padding: 20px 30px;
+    }
+
+    h1 {
+      color: #d9534f; /* merah lembut */
+    }
+
+    h2 {
+      color: #0275d8; /* biru */
+    }
+
+    p {
+      color: #444;
+    }
+
+    .highlight {
+      color: #5cb85c; /* hijau */
+      font-weight: bold;
+    }
+
+    blockquote {
+      color: #f0ad4e;
+      font-style: italic;
+      border-left: 5px solid #f0ad4e;
+      padding-left: 15px;
+      margin-left: 0;
+    }
+
+    label {
+      font-weight: bold;
+      color: #5bc0de; /* biru muda */
+    }
+
+    input, select, textarea {
+      margin-bottom: 10px;
+    }
+
+    button {
+      margin-right: 10px;
+      padding: 8px 12px;
+      font-weight: bold;
+      cursor: pointer;
+      background-color: #0275d8;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #025aa5;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      color: #999;
+    }
+
+    a {
+      color: #d9534f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <img src="Logoskada.png" alt="Logo">
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Work</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- Konten -->
+  <div class="container">
+    <h1>Elma Balqis Photography</h1>
+    <p class="highlight">Mengabadikan setiap momen berharga dengan lensa kamera 📸</p>
+
+    <h2>Apa itu Fotografi?</h2>
+    <p>Fotografi adalah <span class="highlight">seni mengambil gambar</span> menggunakan kamera. Kata <em>photography</em> berasal dari bahasa Yunani yang berarti <span class="highlight">"melukis dengan cahaya"</span>. Seorang fotografer berusaha menangkap momen agar bisa dikenang selamanya.</p>
+
+    <blockquote>"Satu gambar dapat menceritakan seribu kata."</blockquote>
+    <p>Fotografi juga sering digunakan dalam dunia <span class="highlight">media</span>, <span class="highlight">iklan</span>, hingga <span class="highlight">dokumentasi acara</span>.</p>
+
+    <h2>Jenis-Jenis Fotografi</h2>
+    <ul>
+      <li><span class="highlight">Potret (Portrait)</span></li>
+      <li><span class="highlight">Pemandangan (Landscape)</span></li>
+      <li><span class="highlight">Makro (Macro)</span></li>
+      <li><span class="highlight">Jurnalistik (Photojournalism)</span></li>
+    </ul>
+
+    <h2>Peralatan Fotografi</h2>
+    <ul>
+      <li>Kamera DSLR/Mirrorless</li>
+      <li>Lensa: Wide, Tele, Macro</li>
+      <li>Tripod</li>
+      <li>Lighting</li>
+    </ul>
+
+    <h2>Istilah Fotografi</h2>
+    <ul>
+      <li><strong>ISO:</strong> <span class="highlight">Tingkat sensitivitas sensor kamera terhadap cahaya.</span></li>
+      <li><strong>Aperture:</strong> <span class="highlight">Bukaan lensa yang mengatur banyaknya cahaya masuk.</span></li>
+      <li><strong>Shutter Speed:</strong> <span class="highlight">Kecepatan rana saat menangkap gambar.</span></li>
+    </ul>
+
+    <h2>Galeri Foto</h2>
+    <p>Lihat beberapa contoh hasil foto karya Elma Balqis: <a href="#">Instagram Elma Balqis</a></p>
+
+    <h2>Hubungi Elma Balqis</h2>
+    <form>
+      <label>Nama:</label><br>
+      <input type="text" name="nama"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email"><br><br>
+
+      <label>Jenis Fotografi Favorit:</label><br>
+      <input type="radio" name="jenis" value="Potret"> Potret
+      <input type="radio" name="jenis" value="Pemandangan"> Pemandangan
+      <input type="radio" name="jenis" value="Makro"> Makro<br><br>
+
+      <label>Peralatan yang dimiliki:</label><br>
+      <input type="checkbox" name="gear" value="Kamera"> Kamera
+      <input type="checkbox" name="gear" value="Lensa"> Lensa
+      <input type="checkbox" name="gear" value="Tripod"> Tripod<br><br>
+
+      <label>Pesan:</label><br>
+      <textarea name="pesan" rows="4" cols="40"></textarea><br><br>
+
+      <label>Pilih Paket Workshop:</label><br>
+      <select name="paket">
+        <option value="basic">Basic</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select><br><br>
+
+      <button type="submit">Kirim</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <footer>
+      <p>Hak Cipta © 2025 Elma Balqis Photography</p>
+      <p>EBP hadir untuk mendukung <span class="highlight">kreativitasmu!</span></p>
+    </footer>
+  </div>
+
+</body>
+</html>
